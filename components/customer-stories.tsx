@@ -9,13 +9,13 @@ export function CustomerStories() {
     {
       name: "Keluarga Wijaya",
       title: "Perjalanan Lintas Pulau yang Lancar",
-      image: "/images/customer1.jpeg?height=300&width=500",
+      image: "/images/antarpulau.jpeg?height=300&width=500",
       text: "Kami harus memindahkan mobil keluarga dari Jawa ke Sumatera. CV. DUA BINTANG menangani semuanya dengan profesionalisme tinggi. Mobil tiba tepat waktu dan dalam kondisi sempurna. Sangat direkomendasikan!",
     },
     {
       name: "Komunitas Balap Motor",
       title: "Dukungan Logistik Balap yang Andal",
-      image: "/images/customer3.jpeg?height=300&width=500",
+      image: "/images/fitra.jpeg?height=300&width=500",
       text: "Sebagai komunitas balap, kami sering membutuhkan pengiriman motor balap antar sirkuit. CV. DUA BINTANG selalu menjadi pilihan utama kami karena kecepatan dan kehati-hatian mereka. Zero complain!",
     },
   ]

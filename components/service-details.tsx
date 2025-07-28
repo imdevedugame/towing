@@ -92,7 +92,7 @@ export function ServiceDetails() {
             transition={{ duration: 0.6 }}
           >
             <img
-              src="/images/banner2.jpeg?height=400&width=600"
+              src="/images/banner4.jpeg?height=400&width=600"
               alt="Detailed service image"
               className="w-full h-full object-cover"
             />

@@ -93,14 +93,14 @@ export function About() {
             variants={textVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              Terpercaya untuk membantu, <br />
-              dibangun untuk kecepatan
+              Terpercaya Membantu, <br />
+              Dibangun untuk Kecepatan
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Didirikan untuk membantu pengemudi yang terdampar dengan bantuan darurat di jalan yang dapat diandalkan,
-              layanan towing kami dimulai dengan satu truk dan misi untuk memberikan dukungan yang cepat dan ramah. Hari
-              ini, kami dengan bangga melayani ratusan pelanggan setiap hari dengan armada yang diperluas, tim terlatih,
-              dan ketersediaan 24/7.
+              Kami didirikan untuk membantu pengemudi yang mengalami masalah di jalan dengan layanan bantuan darurat
+              yang dapat diandalkan. Dimulai dengan satu truk dan misi memberikan dukungan cepat serta ramah, kini kami
+              bangga melayani ratusan pelanggan setiap hari dengan armada yang lengkap, tim terlatih, dan ketersediaan
+              24/7.
             </p>
             <Button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3">Pelajari Lebih Lanjut</Button>
           </motion.div>
@@ -109,7 +109,7 @@ export function About() {
           <div className="relative h-96 md:h-[450px] lg:h-[500px] w-full">
             {/* Main Background Image */}
             <motion.img
-              src="/images/about1.jpeg?height=600&width=800" // Placeholder for the main background image
+              src="/images/about2.jpeg?height=600&width=800"
               alt="About Us Background"
               className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -146,35 +146,6 @@ export function About() {
               <div className="text-xs font-medium">Tahun Pengalaman</div>
             </motion.div>
 
-            <motion.div
-              className="absolute bottom-12 right-12 w-40 h-32 bg-gray-200 rounded-lg overflow-hidden transform rotate-6 shadow-md z-10"
-              variants={imageVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.7 }}
-              transition={{ delay: 0.4 }}
-            >
-              <img
-                src="/images/about2.jpeg?height=128&width=160"
-                alt="Towing service worker"
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
-
-            <motion.div
-              className="absolute bottom-0 left-16 w-36 h-36 bg-gray-200 rounded-full overflow-hidden transform -rotate-12 shadow-md z-10"
-              variants={imageVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.7 }}
-              transition={{ delay: 0.6 }}
-            >
-              <img
-                src="/images/about3.jpeg?height=144&width=144"
-                alt="Professional towing assistance"
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
 
             {/* Additional Abstract Elements - Adjusted positions and z-index */}
             <motion.div
@@ -184,13 +155,7 @@ export function About() {
               viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: 0.8, duration: 0.5 }}
             ></motion.div>
-            <motion.div
-              className="absolute bottom-24 right-24 w-12 h-12 bg-gray-300 rounded-full opacity-40 z-0"
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 0.4, scale: 1 }}
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 1, duration: 0.5 }}
-            ></motion.div>
+            
           </div>
         </div>
       </div>

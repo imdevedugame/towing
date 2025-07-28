@@ -10,23 +10,23 @@ export function Testimonials() {
     {
       name: "Budi Santoso",
       location: "Jakarta, DKI Jakarta",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/images/budi.jpeg?height=80&width=80",
       rating: 5,
       text: "Pelayanan sangat cepat dan profesional. Mobil saya mogok di tol, dalam 20 menit tim sudah datang. Sangat merekomendasikan ke teman-teman!",
     },
     {
       name: "Sari Wijaya",
       location: "Surabaya, Jawa Timur",
-      image: "/placeholder.svg?height=80&width=80",
+      image: "/images/sri.jpeg?height=80&width=80",
       rating: 5,
       text: "Pengiriman motor dari Jakarta ke Surabaya sangat aman. Harga transparan dan tidak ada biaya tersembunyi. Terima kasih CV. DUA BINTANG!",
     },
     {
-      name: "Ahmad Rahman",
-      location: "Bandung, Jawa Barat",
-      image: "/placeholder.svg?height=80&width=80",
+      name: "Kusuma",
+      location: "Semarang, Jawa Tengah",
+      image: "/images/alat_berat.jpeg?height=80&width=80",
       rating: 5,
-      text: "Layanan 24 jam benar-benar membantu. Mobil mogok tengah malam, langsung dibantu dengan ramah. Operator bersih, truk rapi, dan harga transparan!",
+      text: "Proses pengiriman barang dari Semarang ke Jakarta sangat cepat dan aman. Tim sangat profesional dan ramah. Sangat puas dengan pelayanannya!",
     },
   ]
 

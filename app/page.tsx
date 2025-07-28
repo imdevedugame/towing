@@ -6,7 +6,7 @@ import { WhyChooseUs } from "@/components/why-choose-us"
 import { Testimonials } from "@/components/testimonials"
 import { FAQ } from "@/components/faq"
 import { Contact } from "@/components/contact"
-// Footer is now in layout.tsx
+import { ContactCTA } from "@/components/contact-cta"
 
 export default function HomePage() {
   return (
@@ -21,7 +21,7 @@ export default function HomePage() {
         <FAQ />
         <Contact />
       </main>
-      {/* Footer is now in layout.tsx */}
+      <ContactCTA />
     </div>
   )
 }

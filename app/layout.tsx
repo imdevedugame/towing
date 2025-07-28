@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
+        <head>
+        
+        </head>
       <body className={inter.className}>
         <Header />
         <main>{children}</main>

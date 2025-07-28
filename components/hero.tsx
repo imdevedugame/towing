@@ -47,12 +47,12 @@ export function Hero() {
             className="mb-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
             variants={itemVariants}
           >
-            Jasa Pengiriman Mobil & Motor ke <span className="text-blue-500">Seluruh Indonesia</span>
+            Jasa Towing & Pengiriman Kendaraan ke <span className="text-blue-500">Seluruh Indonesia</span>
           </motion.h1>
 
           <motion.p className="mb-8 text-xl text-gray-600 max-w-2xl mx-auto" variants={itemVariants}>
             CV. DUA BINTANG - Layanan towing dan pengiriman kendaraan terpercaya dengan komitmen "Zero Complain, Zero
-            Accident". Melayani 24 jam untuk seluruh Indonesia.
+            Accident". Kami melayani 24 jam untuk seluruh Indonesia dengan tim profesional dan peralatan modern.
           </motion.p>
 
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center mb-12" variants={itemVariants}>

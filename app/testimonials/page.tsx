@@ -1,13 +1,15 @@
 import { Testimonials } from "@/components/testimonials"
 import { CustomerStories } from "@/components/customer-stories"
 import { RatingSummary } from "@/components/rating-summary"
+import { ContactCTA } from "@/components/contact-cta"
 
 export default function TestimonialsPage() {
   return (
     <>
       <Testimonials />
-      <CustomerStories /> {/* New section for longer stories */}
-      <RatingSummary /> {/* New section for rating overview */}
+      <CustomerStories />
+      <RatingSummary />
+      <ContactCTA />
     </>
   )
 }

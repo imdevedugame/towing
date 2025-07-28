@@ -42,7 +42,7 @@ export function WhyChooseUs() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
             <img
-              src="/images/banner1.jpeg?height=500&width=500"
+              src="/images/customer1.jpeg?height=500&width=500"
               alt="Professional towing service"
               className="w-full h-full object-cover"
             />
