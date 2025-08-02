@@ -8,49 +8,49 @@ import { motion } from "framer-motion"
 export function Services() {
   const mainServices = [
     {
-      title: "Kirim Mobil",
+      title: "Kirim Mobil Semarang",
       description:
-        "Mau pindah kota tapi bingung sama mobilnya? Tenang! Kami siap antar mobil kesayangan Anda ke mana pun di Indonesia. Dijamin aman sampai tujuan, lengkap dengan asuransi dan tracking real-time. Mobil Anda akan dirawat seperti milik sendiri!",
+        "Layanan kirim mobil dari Semarang ke seluruh Indonesia atau sebaliknya. Sebagai towing Semarang terpercaya, kami menjamin mobil kesayangan Anda sampai dengan selamat. Dilengkapi asuransi dan tracking real-time untuk ketenangan Anda!",
       image: "/images/kirim_mobil.jpeg?height=200&width=300",
       icon: Car,
       whatsappMessage:
-        "Halo CV. DUA BINTANG! Saya tertarik dengan layanan *Kirim Mobil*. Saya ingin mengirim mobil ke [tujuan]. Bisa tolong berikan informasi harga dan prosedurnya? Terima kasih!",
+        "Halo Semarang Towing CV. DUA BINTANG! Saya tertarik dengan layanan *Kirim Mobil Semarang*. Saya ingin mengirim mobil dari/ke Semarang tujuan [tujuan]. Bisa tolong berikan informasi harga dan prosedurnya? Terima kasih!",
     },
     {
-      title: "Kirim Motor",
+      title: "Kirim Motor Semarang",
       description:
-        "Motor kesayangan perlu dikirim ke luar kota? Gampang banget! Tim kami udah berpengalaman bertahun-tahun nangani pengiriman motor. Dari motor bebek sampai moge, semua ditangani dengan extra hati-hati. Motor sampai mulus tanpa lecet!",
+        "Towing Semarang untuk pengiriman motor ke seluruh Nusantara. Tim towing Semarang kami sudah berpengalaman bertahun-tahun menangani pengiriman motor dari Semarang. Dari motor bebek sampai moge, semua ditangani dengan extra hati-hati!",
       image: "/images/kirim_motorr.jpeg?height=200&width=300",
       icon: Bike,
       whatsappMessage:
-        "Halo CV. DUA BINTANG! Saya mau kirim motor dengan layanan *Kirim Motor*. Motor saya [jenis motor] mau dikirim ke [tujuan]. Mohon info harga dan estimasi waktu pengiriman ya. Terima kasih!",
+        "Halo Semarang Towing CV. DUA BINTANG! Saya mau kirim motor dengan layanan *Kirim Motor Semarang*. Motor saya [jenis motor] mau dikirim dari/ke Semarang tujuan [tujuan]. Mohon info harga dan estimasi waktu pengiriman ya. Terima kasih!",
     },
     {
-      title: "Alat Berat",
+      title: "Towing Alat Berat Semarang",
       description:
-        "Punya excavator, bulldozer, atau alat berat lainnya yang perlu dipindah? Serahkan pada ahlinya! Kami punya peralatan khusus dan tim yang udah terlatih khusus untuk alat berat. Pengalaman puluhan tahun bikin kami paham betul cara nangani 'si besar' ini.",
+        "Spesialis towing alat berat di Semarang dan Jawa Tengah. Sebagai layanan towing Semarang profesional, kami memiliki peralatan khusus untuk excavator, bulldozer, dan alat berat lainnya. Pengalaman puluhan tahun membuat kami ahli menangani 'si besar' ini.",
       image: "/images/kirim2.jpeg?height=200&width=300",
       icon: Truck,
       whatsappMessage:
-        "Halo CV. DUA BINTANG! Saya butuh layanan *Alat Berat* untuk memindahkan [jenis alat berat] dari [asal] ke [tujuan]. Bisa tolong berikan penawaran dan jadwal yang tersedia? Terima kasih!",
+        "Halo Towing Semarang CV. DUA BINTANG! Saya butuh layanan *Towing Alat Berat Semarang* untuk memindahkan [jenis alat berat] dari [asal] ke [tujuan]. Bisa tolong berikan penawaran dan jadwal yang tersedia? Terima kasih!",
     },
     {
-      title: "Jual Beli Kendaraan",
+      title: "Jual Beli Kendaraan Semarang",
       description:
-        "Mau jual mobil atau motor tapi ribet ngurusnya? Atau lagi nyari kendaraan bekas berkualitas? Kami bantu dari A sampai Z! Proses cepat, harga fair, dan semua dokumen dijamin lengkap. Gak perlu pusing mikirin surat-surat!",
+        "Layanan jual beli kendaraan terpercaya di Semarang. Selain towing Semarang, kami juga melayani transaksi jual beli mobil dan motor bekas. Proses cepat, harga fair, dan semua dokumen dijamin lengkap. Khusus area Semarang dan sekitarnya!",
       image: "/images/jual_beli.jpeg?height=200&width=300",
       icon: ShoppingCart,
       whatsappMessage:
-        "Halo CV. DUA BINTANG! Saya tertarik dengan layanan *Jual Beli Kendaraan*. Saya ingin [jual/beli] [jenis kendaraan]. Bisa tolong bantu prosesnya? Terima kasih!",
+        "Halo CV. DUA BINTANG Semarang! Saya tertarik dengan layanan *Jual Beli Kendaraan Semarang*. Saya ingin [jual/beli] [jenis kendaraan] di area Semarang. Bisa tolong bantu prosesnya? Terima kasih!",
     },
     {
-      title: "Pengiriman Driver (Self Drive)",
+      title: "Driver Semarang (Self Drive)",
       description:
-        "Butuh driver handal untuk bawa kendaraan Anda? Driver kami bukan sembarangan! Sudah bersertifikat, berpengalaman, dan yang pasti amanah. Kendaraan Anda akan sampai dengan selamat di tangan driver profesional kami.",
+        "Butuh driver handal di Semarang? Layanan towing Semarang kami juga menyediakan driver profesional untuk membawa kendaraan Anda. Driver Semarang kami bersertifikat, berpengalaman, dan amanah. Kendaraan sampai selamat di tangan driver terpercaya!",
       image: "/images/via_darat.jpeg?height=200&width=300",
       icon: UserCheck,
       whatsappMessage:
-        "Halo CV. DUA BINTANG! Saya memerlukan layanan *Pengiriman Driver (Self Drive)* untuk membawa [jenis kendaraan] dari [asal] ke [tujuan]. Mohon info driver yang tersedia dan tarifnya. Terima kasih!",
+        "Halo Towing Semarang CV. DUA BINTANG! Saya memerlukan layanan *Driver Semarang (Self Drive)* untuk membawa [jenis kendaraan] dari [asal] ke [tujuan]. Mohon info driver Semarang yang tersedia dan tarifnya. Terima kasih!",
     },
   ]
 
@@ -86,20 +86,22 @@ export function Services() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
+        staggerChildren: 0.05, // Kurangi dari 0.1 ke 0.05 untuk lebih cepat
+        delayChildren: 0.1,
       },
     },
   }
 
   const itemVariants = {
-    hidden: { y: 50, opacity: 0 },
+    hidden: { y: 20, opacity: 0 }, // Kurangi dari 50px ke 20px
     visible: {
       y: 0,
       opacity: 1,
       transition: {
         type: "spring",
-        damping: 10,
-        stiffness: 100,
+        damping: 15, // Tingkatkan dari 10 ke 15
+        stiffness: 120, // Tingkatkan dari 100 ke 120
+        duration: 0.3, // Tambahkan duration
       },
     },
   }
@@ -111,31 +113,35 @@ export function Services() {
           className="flex justify-between items-start mb-12"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={containerVariants}
         >
           <div>
             <motion.span className="text-sm font-medium text-gray-500 uppercase tracking-wide" variants={itemVariants}>
-              LAYANAN KAMI
+              LAYANAN TOWING SEMARANG
             </motion.span>
             <motion.h2 className="mt-2 text-4xl font-bold text-gray-900 leading-tight" variants={itemVariants}>
-              Layanan Towing Terpercaya, <br />
-              Siap Membantu Kapan Saja
+              Semarang Towing Terpercaya, <br />
+              Siap Membantu 24 Jam
             </motion.h2>
+            <motion.p className="mt-4 text-lg text-gray-600 max-w-2xl" variants={itemVariants}>
+              CV. DUA BINTANG adalah layanan towing Semarang terdepan dengan pengalaman puluhan tahun. Melayani towing
+              di Semarang dan sekitarnya dengan respons cepat dan harga terjangkau.
+            </motion.p>
           </div>
-        
+         
         </motion.div>
 
         <motion.div
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
           variants={containerVariants}
-          initial="hidden"
+          initial={{ opacity: 1 }} // Fallback jika animasi gagal
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.1, margin: "-50px" }} // Tambahkan margin
         >
           {mainServices.map((service, index) => (
             <motion.div key={index} variants={itemVariants}>
-              <Card className="border-0 shadow-sm hover:shadow-lg transition-shadow duration-300">
+              <Card className="border-0 shadow-sm hover:shadow-lg transition-shadow duration-300 opacity-100">
                 <div className="aspect-video bg-gray-200 overflow-hidden">
                   <img
                     src={service.image || "/images/banner4.jpeg"}
@@ -172,7 +178,7 @@ export function Services() {
           className="bg-gray-100 rounded-lg p-8 shadow-md"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.1 }}
           variants={containerVariants}
         >
           <motion.h3 className="text-2xl font-bold text-gray-900 mb-6 text-center" variants={itemVariants}>
